@@ -19,6 +19,12 @@ body {
     margin: 0;
 }
 
+.title {
+    font-family: var(--font-titulo);
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
 .hero {
     position: relative;
     height: 100vh;
