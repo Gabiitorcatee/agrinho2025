@@ -1,7 +1,7 @@
 @import url('[https://fonts.googleapis.com/css2?family=Playfair+Display\:wght@700\&display=swap](https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap)');
 @import url('[https://fonts.googleapis.com/css2?family=Inter\:wght@400\&display=swap](https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap)');
 
-/* Variáveis */
+/*Variáveis */
 :root {
 --primary-color: #004d40;
 --secondary-color: #26a69a;
@@ -24,6 +24,11 @@ margin: 0;
 font-family: var(--font-titulo);
 font-size: 4rem;
 margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+font-family: var(--font-titulo);
+color: var(--text-color);
 }
 
 .hero {
@@ -94,7 +99,7 @@ max-width: 800px;
 margin-left: auto;
 margin-right: auto;
 box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-font-family: var(--font-titulo);
+font-family: var(--font-body);
 }
 
 footer {
@@ -120,9 +125,8 @@ background-color: var(--button-hover);
 }
 
 .credits {
-    font-size: 0.9rem;
-    color: #cccccc;
-    margin-top: 10px;
-    font-family: var(--font-body);
+font-size: 0.9rem;
+color: #cccccc;
+margin-top: 10px;
+font-family: var(--font-body);
 }
-
